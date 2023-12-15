@@ -54,6 +54,3 @@ def get_entries():
         return time_entries_df
     else:
         print(f"Failed to fetch time entries: {response.status_code}")
-
-test = get_entries()
-x = 1
